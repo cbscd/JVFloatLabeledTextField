@@ -79,6 +79,7 @@ const static CGFloat kJVFieldFloatingLabelFontSize = 11.0f;
     titleField.floatingLabel.font = [UIFont boldSystemFontOfSize:kJVFieldFloatingLabelFontSize];
     titleField.floatingLabelTextColor = floatingLabelColor;
     titleField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    titleField.floatingLabelYPadding = 5.0;
 //    UIView *leftView = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 30.0f, 30.0f)];
 //    titleField.leftView = leftView;
 //    titleField.leftViewMode = UITextFieldViewModeAlways;

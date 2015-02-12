@@ -70,6 +70,12 @@
     _adjustsClearButtonRect = 1;
 }
 
+//#if TARGET_INTERFACE_BUILDER
+- (void)drawRect:(CGRect)rect {
+    [super drawRect:rect];
+}
+//#endif
+
 #pragma mark -
 
 - (UIColor *)labelActiveColor
