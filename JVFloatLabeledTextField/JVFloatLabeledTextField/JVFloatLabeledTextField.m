@@ -31,6 +31,12 @@
 #define kFloatingLabelShowAnimationDuration 0.3f
 #define kFloatingLabelHideAnimationDuration 0.3f
 
+@interface JVFloatLabeledTextField ()
+
+@property (nonatomic, strong) IBInspectable UILabel *floatingLabel;
+
+@end
+
 @implementation JVFloatLabeledTextField
 
 - (instancetype)initWithFrame:(CGRect)frame
